@@ -1,0 +1,19 @@
+.table {
+  * {
+    text-align: left;
+  }
+  th:not(:last-child),
+  td:not(:last-child) {
+    padding-right: 2rem;
+  }
+
+  td {
+    min-width: min-content;
+    
+  }
+
+  tr:not(:last-child) {
+    padding-bottom: 2rem;
+  }
+}
+
