@@ -1,5 +1,12 @@
 //Start - 13:50
 
+/**
+ * Further improvements: 
+ * 1. Add try-catch for fetching expenses to handle non 200 response code
+ * 2. Add tests for util functions
+ * Refine styling to be responsive
+ */
+
 import Header from "./components/Header/Header";
 import ExpenseTable from "./components/ExpenseTable/ExpenseTable";
 import getData from "./utils/getData";
