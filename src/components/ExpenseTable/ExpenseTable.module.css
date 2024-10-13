@@ -4,16 +4,20 @@
   }
   th:not(:last-child),
   td:not(:last-child) {
-    padding-right: 2rem;
+    padding-right: 5rem;
   }
 
   td {
     min-width: min-content;
-    
+    font-size: 1rem;    
+  }
+
+  th {
+    font-weight: 600;
+    font-size: 1.75rem;    
   }
 
   tr:not(:last-child) {
     padding-bottom: 2rem;
   }
 }
-
